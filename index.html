@@ -10,7 +10,7 @@
 />
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
-    
+    <link rel="shortcut icon" type="imagex/png" href="./img/open-book (2).png">
 </head>
 <body>
     <header class="cabecalho">
@@ -29,7 +29,7 @@
           
             </ul>
 
-            <img src="./img/Logo.svg" alt="logo" class="container__imagem">
+            <img src="./img/open-book (2).png" width="18%" alt="logo" class="container__imagem">
         </div>
         <div class="container">
             <a href="#"><img src="./img/Favoritos.svg" alt="Meus favoritos" class="container__imagem" ></a>
@@ -46,12 +46,12 @@
         <h2 class="carrosel__titulo">Novos lançamentos</h2>
         <div class="swiper">
             
-            <!-- If we need pagination -->
+            
             <div class="swiper-pagination"></div>
 
 
             <div class="swiper-wrapper">
-              <!-- Slides -->
+              
               <div class="swiper-slide"><img src="./img/ApacheKafka.svg" alt="livro"></div>
               <div class="swiper-slide"><img src="./img/ApacheKafka.svg" alt="livro"></div>
               <div class="swiper-slide"><img src="./img/ApacheKafka.svg" alt="livro"></div>
@@ -64,13 +64,34 @@
             </div>
             
           
-            <!-- If we need navigation buttons -->
+           
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
           
             
           </div>
     </section>
+    <section class="bloco">
+        <div class="bloco__1">
+            <p class="bloco__titulo_cor">Talvez você também se interesse por...</p>
+            <h2 class="bloco__titulo_cor2">Angular 11 e Firebase</h2>
+            <p class="bloco__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+            <div class="bloco__imagems">
+                <img src="./img/Favoritos.svg">
+                <img src="./img/Compras.svg">
+            </div>
+        </div>
+        <div class="bloco__2">
+            <img class="bloco__2__imagem" src="./img/Angular.svg">
+            <a  class="bloco__2__link"  href="#">Saiba Mais</a>
+        </div>
+    </section>
+
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
