@@ -42,9 +42,17 @@
     /* padding: 1em 0 0.5em 1em; */
     color: var(--cor--categoria);
 }
+
+.autora{
+    /* padding-top: 2em; */
+    margin-top: 0.7em;
+
+}
+
+
 .bloco__titulo_cor2{
     margin: 0.7em 0;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     color: var(--cor--opcoes-menu);
 }
@@ -53,13 +61,17 @@
     
 }
 
+.outro_texto{
+    padding-bottom: 1.3em;
+}
+
 .bloco__imagems{
     
     display: flex;
     justify-content: space-between;
     padding: 0 0.5em;
     padding-right: 4.2em;
-    margin-bottom: 1em;
+
 }
 
 .bloco__2{
@@ -69,15 +81,23 @@
 
 .bloco__2__imagem{
     width: 10.5rem;
-    margin-bottom: 2.3em;
+    margin-bottom: 1.6em;
     
 }
 
+
+
 .bloco__2__link{
+    padding-bottom: 1em;
     text-decoration: none;
     color: var(--branco);
     text-align: center;
     padding: 1em;
     font-weight: 700;
     background-color: var(--cor--categoria);    
+}
+
+.tópicos{
+    background-color: var(--cor--opcoes-menu);
+    text-align: center;
 }
